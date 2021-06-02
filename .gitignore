@@ -12,3 +12,4 @@ wp-config.php
 #Ignore node dependecies directories
 node_modules/
 /wp-content/plugins/modula-best-grid-gallery/includes/divi-extension/node_modules/
+
