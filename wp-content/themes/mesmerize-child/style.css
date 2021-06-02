@@ -1,0 +1,94 @@
+/*
+ Theme Name:   Mesmerize Child
+ Author:       Benjamin Kyhn
+ Template:     mesmerize
+ Version:      1.0.0
+*/
+
+h1, h2 {
+    color: #57aaff;
+}
+
+ul.dropdown-menu > li > a {
+    font-size: 16px;
+}
+
+.custom-page-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.blog-posts {
+    padding-left: 10px;
+}
+
+.custom-h1 {
+    color: #57aaff;
+    font-family: Roboto, sans-serif;
+    font-size: 40px
+}
+
+.custom-h4 {
+    font-family: Roboto, sans-serif;
+}
+
+.custom-paragraph {
+    color: #7a7a7a;
+    font-family: Roboto, sans-serif;
+    font-size: 16px
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+body.custom-background,
+.mesmerize-front-page.mesmerize-content-padding .page-content,
+.mesmerize-inner-page .page-content,
+.mesmerize-inner-page .content {
+    background-color: #FFFFFF !important;
+}
+
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mySlides {
+    width: 100vw;
+    height: calc(100vw * 0.6) !important;
+}
+
+.header-top {
+    position: sticky;
+}
+
+.em-location-map-container {
+    max-width: calc(100vw - 60px);
+}
+
+.custom-footer {
+    border-top: 1px solid #8E9DAE;
+    background-color: #f8f8f8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: #8E9DAE;
+}
+
+@media (min-width: 768px) {
+    .mySlides {
+        width: 50vw;
+        height: calc(50vw * 0.6) !important;
+    }
+
+    .em-location-map-container {
+        max-width: none;
+    }
+}
