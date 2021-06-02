@@ -4,6 +4,8 @@
 !.gitignore
 !wp-content/
 
+wp-config.php
+
 #Ignore IDE files
 .idea
 
